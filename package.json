@@ -1,0 +1,31 @@
+{
+  "name": "Facebook_Comment",
+  "version": "0.0.1",
+  "description": "Facebook Comment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinclubi/Facebook_Comment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinclubi/Facebook_Comment/issues"
+  },
+  "homepage": "https://github.com/chinclubi/Facebook_Comment",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "gulp": "^3.9.0",
+    "gulp-exec": "^2.1.1",
+    "http": "0.0.0",
+    "multer": "^1.0.1",
+    "mysql": "^2.8.0",
+    "promise": "^7.0.3",
+    "ps-node": "0.0.4",
+    "request": "^2.58.0"
+  }
+}
