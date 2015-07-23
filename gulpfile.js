@@ -5,7 +5,7 @@ var node
 gulp.task('node', function (callback) {
   if (node) {
     console.log('Kill previous node!')
-    node.kill()
+    node.kill(node.pid)
   }
   node = spawn('node', ['lib/app.js'], { stdio: 'inherit' })
   node.on('close', function (code) {
